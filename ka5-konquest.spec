@@ -43,6 +43,12 @@ Konquest is the KDE version of Gnu-Lactic Konquest. Players conquer
 other planets by sending ships to them. The goal is to build an
 interstellar empire and ultimately conquer all other player's planets.
 
+%description -l pl.UTF-8
+Konquest jest wersją KDE Gnu-Lactic Konquesta. Gracze zdobywają
+inne planety wysyłając statki kosmiczne na nie. Celem jest
+zbudowanie intergalakatycznego imperium i ostatczne podbicie planet
+innych graczy.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
