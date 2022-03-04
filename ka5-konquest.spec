@@ -1,15 +1,15 @@
-%define		kdeappsver	21.12.2
+%define		kdeappsver	21.12.3
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		konquest
 Summary:	konquest
 Name:		ka5-%{kaname}
-Version:	21.12.2
+Version:	21.12.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	4b2647056a7e56e10e275a19f6301011
+# Source0-md5:	ec042cd30daabd446c5bb2095c8f4a9e
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
