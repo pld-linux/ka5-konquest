@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	22.12.0
+%define		kdeappsver	22.12.1
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		konquest
 Summary:	konquest
 Name:		ka5-%{kaname}
-Version:	22.12.0
-Release:	2
+Version:	22.12.1
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	bc1224d032508839712534d83e62a7e4
+# Source0-md5:	a3dae0a529cbd33e47fa9e93cea3c4fc
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
